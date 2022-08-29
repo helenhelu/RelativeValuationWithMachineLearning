@@ -11,15 +11,18 @@ We use machine learning for relative valuation and peer firm selection. In out-o
 
 ## Computational Requirements
 
-*Hardware*
+**Hardware**
+
 You will need a reasonably specced machine. We tested the code on a machine with 64GB of RAM and ample (>400GB) free space on an SSD. Expect a runtime of > 12 hours.
 
-*Software*
+**Software**
+
 Stata MP version 17 or higher
 Python 3.9.7
 
-*Python packages*
-See requirements.txt in MLCode folder
+**Python packages**
+
+See requirements.txt in [MLCode](MLCode) folder
 
 ## Suggested background
 
