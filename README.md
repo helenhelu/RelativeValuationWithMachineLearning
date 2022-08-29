@@ -89,7 +89,8 @@ ff49_2_ff49_desc.dta -- Fama/French 49 industry descriptions
 In addition to Stata (for Stata code), MLcode (for Python code) and Source (data files we can share), you will need to create
 
 work -- a folder for intermediate calculations (will have > 100,000 files when processing is complete)
-results -- a folder containing graphs (in pdf format) and tables (in latex format) for inclusion in the final paper. See 999TablesAndFiguresList.do in Stata directory for a list of which files are associated with which tables  / figures in the paper.
+
+results -- a folder containing graphs (in pdf format) and tables (in latex format) for inclusion in the final paper. See 999TablesAndFiguresList.do in Stata directory for a list of which files are associated with which tables / figures in the paper.
 
 ### Modify 000RunAll.do 
 
