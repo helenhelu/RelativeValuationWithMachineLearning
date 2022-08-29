@@ -103,9 +103,7 @@ Within Stata execute 000RunAll.do. Come back in a day or so. The Stata code auto
 
 ## Troubleshooting
 
-The code as provided ran 
-
-It is unlikely that the code will "just run" without any errors in a different environment with different data; do be prepared to troubleshoot. That said, any fixes should be reasonably straight-forward.
+The code as provided ran from start to finish on our machine. However, it is unlikely that the code will "just run" without any errors in a different environment with different data; do be prepared to troubleshoot. That said, any fixes should be reasonably straight-forward.
 
 If you do get errors running the code, the following are possible causes.
 
@@ -115,4 +113,3 @@ If you do get errors running the code, the following are possible causes.
   
 If you are an academic researcher who is seeking to replicate our work as part of a replicaton study, feel free to get in touch for assistence. We regret that we are unable to provide unpaid assistence otherwise. (If you are happy to pay USD 500 per hour we can talk.)
   
-
