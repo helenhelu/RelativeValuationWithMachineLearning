@@ -37,12 +37,19 @@ We use Compustat annual and quarterly for accounting data, CRSP for market data 
 ### Not supplied:
 
 crsp_daily.dta -- CRSP daily file in Stata format
+
 compustatq.dta -- Compustat quarterly file in Stata format
+
 Compustat.dta -- Compustat annual file in Stata format
+
 crsp_msf_processed.dta -- CRSP monthly file in Stata format. [1]
+
 factorloadings_crspmonthly.dta -- Monthly factor loadings. [2]
+
 SDC_19_7_2019_cleaned_long.xlsx -- IPO data from SDC platinum
+
 gvkeypermno.dta -- Link table to match gvkeys (Compustat) to permnos (CRSP) from WRDS
+
 
 [1] Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
 
@@ -53,12 +60,19 @@ gvkeypermno.dta -- Link table to match gvkeys (Compustat) to permnos (CRSP) from
 See Source folder
 
 anomalystrategies_clusters.dta [3]
+
 nysebreaks.dta -- NYSE breakpoints 
+
 Ritter_IPO_andage19752019.xlsx -- List of IPO's from Jay Ritter. https://site.warrington.ufl.edu/ritter/ipo-data/
+
 SCOOP-Rating-Performance.xls -- IPO list from IPOScoop. https://www.iposcoop.com/
+
 tnic3_data.txt [4]
+
 ff12_sic.dta -- Fama/French 12 industry classifications
+
 sic2ff49map.dta -- Fama/French 49 industry map to 2-digit SIC codes
+
 ff49_2_ff49_desc.dta -- Fama/French 49 industry descriptions
 
 [3] From "The correlation structure of anomaly strategies", Journal of Banking and Finance, Geertsema and Lu (2021). See https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002797
