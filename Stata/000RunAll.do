@@ -48,7 +48,6 @@ if _rc==0 {
 	global pythonenvir "conda activate valuation"
 	global pythoncode "C:/Users/Helen/Dropbox/Valuation/MLCode/ValuationGBM.py"
 	global pythontreecode "C:/Users/Helen/Dropbox/Valuation/MLCode/ValuationTree.py"
-	global peerpythoncode "C:/Users/Helen/Dropbox/Valuation/MLCode/PeerGroup.py"
 }
 
 * paul local computer
@@ -63,7 +62,6 @@ if _rc==0 {
 	global pythonenvir "conda activate valuation"
 	global pythoncode "C:/Paul/Dropbox/Valuation/MLCode/ValuationGBM.py"
 	global pythontreecode "C:/Paul/Dropbox/Valuation/MLCode/ValuationTree.py"
-	global peerpythoncode "C:/Paul/Dropbox/Valuation/MLCode/PeerGroup.py"	
 }
 
 cd ${work}
