@@ -19,7 +19,7 @@ We use machine learning for relative valuation and peer firm selection. In out-o
 
 **Hardware**
 
-You will need a reasonably specced machine. We tested the code on a machine with 64GB of RAM and ample (>400GB) free space on an SSD. Expect a runtime of > 12 hours.
+You will need a reasonably specced machine. We tested the code on a machine with 64GB of RAM and ample (>400GB) free space on an SSD. Expect a runtime of 12-24 hours.
 
 **Software**
 
