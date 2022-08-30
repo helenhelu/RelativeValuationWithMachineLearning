@@ -102,7 +102,7 @@ results -- a folder containing graphs (in pdf format) and tables (in latex forma
 ### Modify 000RunAll.do 
 
 Modify global macro definitions in lines 42-66 in 000RunAll.do in the [Stata](stata) folder to point at your own local folders and Python environment as appropriate.
-The Stata code assumes that you have an anaconda installation with a environment called "Valuation" that contains the relevant Python packages. Modify as needed.
+The Stata code assumes that you have an anaconda installation with an environment called "Valuation" that contains the relevant Python packages. Modify as needed.
 
 ### Execute 000RunAll.do
 
@@ -115,8 +115,8 @@ The code as provided ran from start to finish on our machine. However, it is unl
 If you do get errors running the code, the following are possible causes.
 
 1. Missing data files and/or incorrectly specified folders.
-2. Missing Stata ado files. If this is the case, install the missing ado file (an ado file in Stata is like a Python package) using "findit <package name>"
-3. Insuficient memory or disk space. (See requirements above. This should not be an issue with 64GB+ memory and 400GB+ free disk space.
+2. Missing Stata ado files. If this is the case, install the missing ado file (an ado file in Stata is like a Python package) using "findit \<package name\>"
+3. Insuficient memory or disk space. (See requirements above). This should not be an issue with 64GB+ memory and 400GB+ free disk space.
   
 If you are an academic researcher who is seeking to replicate our work as part of a replicaton study, feel free to get in touch for assistence. We regret that we are unable to provide unpaid assistence otherwise.
   
