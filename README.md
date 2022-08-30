@@ -25,7 +25,7 @@ You will need a reasonably specced machine. We tested the code on a machine with
 
 Stata MP version 17 or higher
 
-Python 3.9.7
+Python 3.10.4
 
 **Python packages**
 
@@ -33,11 +33,11 @@ See requirements.txt in [MLCode](MLCode) folder
 
 ## Suggested background
 
-You will need to be very comfortable in Stata and Python, and familiar with machine learning (especially LightGBM and SHAP), experienced working with Compustat and CRSP data, have a reasonable background in accounting/finance/economics and some basic linear algebra. Or you should be a team that covers all these bases.
+You will need to be comfortable in Stata and Python, and familiar with machine learning (especially LightGBM and SHAP), experienced working with Compustat and CRSP data, have a reasonable background in accounting/finance/economics and some basic linear algebra. Or you should be a team that covers all these bases.
 
-## Source data
+## Source data for running the code
 
-All source data should be located in /source
+See [source](source) for source data we can share.
 
 We use Compustat annual and quarterly for accounting data, CRSP for market data and SDC platinum for IPO data. This is proprietary data we can't share, so you will need to bring your own.
 
@@ -49,24 +49,24 @@ compustatq.dta -- Compustat quarterly file in Stata format
 
 Compustat.dta -- Compustat annual file in Stata format
 
-crsp_msf_processed.dta -- CRSP monthly file in Stata format. [1]
+crsp_msf_processed.dta -- CRSP monthly file in Stata format. [^1]
 
-factorloadings_crspmonthly.dta -- Monthly factor loadings. [2]
+factorloadings_crspmonthly.dta -- Monthly factor loadings. [^2]
 
 SDC_19_7_2019_cleaned_long.xlsx -- IPO data from SDC platinum
 
 gvkeypermno.dta -- Link table to match gvkeys (Compustat) to permnos (CRSP) from WRDS
 
 
-[1] Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
+[^1]: Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
 
-[2] We only use variable "CAPMbeta", which is the beta on the market factor (FF MKTRF) estimated in monthly data over 60 month rolling windows.
+[^2]: We only use variable "CAPMbeta", which is the beta on the market factor (FF MKTRF) estimated in monthly data over 60 month rolling windows.
 
 ### Supplied data:
 
-See Source folder
+See [Source](source).
 
-anomalystrategies_clusters.dta [3]
+anomalystrategies_clusters.dta [^3]
 
 nysebreaks.dta -- NYSE breakpoints 
 
@@ -74,7 +74,7 @@ Ritter_IPO_andage19752019.xlsx -- List of IPO's from Jay Ritter. https://site.wa
 
 SCOOP-Rating-Performance.xls -- IPO list from IPOScoop. https://www.iposcoop.com/
 
-tnic3_data.txt [4]
+tnic3_data.txt [^4]
 
 ff12_sic.dta -- Fama/French 12 industry classifications
 
@@ -82,9 +82,9 @@ sic2ff49map.dta -- Fama/French 49 industry map to 2-digit SIC codes
 
 ff49_2_ff49_desc.dta -- Fama/French 49 industry descriptions
 
-[3] From "The correlation structure of anomaly strategies", Journal of Banking and Finance, Geertsema and Lu (2021). See https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002797
+[^3]: From "The correlation structure of anomaly strategies", Journal of Banking and Finance, Geertsema and Lu (2021). See https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002797
 
-[4] Hoberg and Philips industry classifications (TNIC 3). https://hobergphillips.tuck.dartmouth.edu/industryclass.htm
+[^4]: Hoberg and Philips industry classifications (TNIC 3). https://hobergphillips.tuck.dartmouth.edu/industryclass.htm
 
 
 ## Steps
