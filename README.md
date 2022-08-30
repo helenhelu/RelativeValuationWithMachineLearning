@@ -49,24 +49,24 @@ compustatq.dta -- Compustat quarterly file in Stata format
 
 Compustat.dta -- Compustat annual file in Stata format
 
-crsp_msf_processed.dta -- CRSP monthly file in Stata format. [^1]
+crsp_msf_processed.dta -- CRSP monthly file in Stata format. [1]
 
-factorloadings_crspmonthly.dta -- Monthly factor loadings. [^2]
+factorloadings_crspmonthly.dta -- Monthly factor loadings. [2]
 
 SDC_19_7_2019_cleaned_long.xlsx -- IPO data from SDC platinum
 
 gvkeypermno.dta -- Link table to match gvkeys (Compustat) to permnos (CRSP) from WRDS
 
 
-[^1]: Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
+[1]: Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
 
-[^2]: We only use variable "CAPMbeta", which is the beta on the market factor (FF MKTRF) estimated in monthly data over 60 month rolling windows.
+[2]: We only use variable "CAPMbeta", which is the beta on the market factor (FF MKTRF) estimated in monthly data over 60 month rolling windows.
 
 ### Supplied data:
 
 See [Source](source).
 
-anomalystrategies_clusters.dta [^3]
+anomalystrategies_clusters.dta [3]
 
 nysebreaks.dta -- NYSE breakpoints 
 
@@ -74,7 +74,7 @@ Ritter_IPO_andage19752019.xlsx -- List of IPO's from Jay Ritter. https://site.wa
 
 SCOOP-Rating-Performance.xls -- IPO list from IPOScoop. https://www.iposcoop.com/
 
-tnic3_data.txt [^4]
+tnic3_data.txt [4]
 
 ff12_sic.dta -- Fama/French 12 industry classifications
 
@@ -82,9 +82,9 @@ sic2ff49map.dta -- Fama/French 49 industry map to 2-digit SIC codes
 
 ff49_2_ff49_desc.dta -- Fama/French 49 industry descriptions
 
-[^3]: From "The correlation structure of anomaly strategies", Journal of Banking and Finance, Geertsema and Lu (2021). See https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002797
+[3]: From "The correlation structure of anomaly strategies", Journal of Banking and Finance, Geertsema and Lu (2021). See https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3002797
 
-[^4]: Hoberg and Philips industry classifications (TNIC 3). https://hobergphillips.tuck.dartmouth.edu/industryclass.htm
+[4]: Hoberg and Philips industry classifications (TNIC 3). https://hobergphillips.tuck.dartmouth.edu/industryclass.htm
 
 
 ## Steps
@@ -101,7 +101,7 @@ results -- a folder containing graphs (in pdf format) and tables (in latex forma
 
 ### Modify 000RunAll.do 
 
-Modify global macro definitions in lines 42-66 in 000RunAll.do in the [Stata](stata) folder to point at your own local folders and Python enviroment as appropriate.
+Modify global macro definitions in lines 42-66 in 000RunAll.do in the [Stata](stata) folder to point at your own local folders and Python environment as appropriate.
 The Stata code assumes that you have an anaconda installation with a environment called "Valuation" that contains the relevant Python packages. Modify as needed.
 
 ### Execute 000RunAll.do
@@ -118,5 +118,5 @@ If you do get errors running the code, the following are possible causes.
 2. Missing Stata ado files. If this is the case, install the missing ado file (an ado file in Stata is like a Python package) using "findit <package name>"
 3. Insuficient memory or disk space. (See requirements above. This should not be an issue with 64GB+ memory and 400GB+ free disk space.
   
-If you are an academic researcher who is seeking to replicate our work as part of a replicaton study, feel free to get in touch for assistence. We regret that we are unable to provide unpaid assistence otherwise. (If you are happy to pay USD 500 per hour we can talk.)
+If you are an academic researcher who is seeking to replicate our work as part of a replicaton study, feel free to get in touch for assistence. We regret that we are unable to provide unpaid assistence otherwise.
   
