@@ -5,6 +5,12 @@ Code for the paper "Relative Valuation with Machine Learning", Geertsema and Lu 
 ## Paper reference
 Geertsema and Lu (2022), "Relative Valuation with Machine Learning", SSRN, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3740270
 
+## TL;DR
+
+Machine learning outperforms traditional approaches in the context of automated equity valuation. ML_lnm2b is the performance of our model using LightGBM.
+
+![plot](Figure1A.png)
+
 ## Abstract
 
 We use machine learning for relative valuation and peer firm selection. In out-of-sample tests our machine learning models substantially outperform traditional models in valuation accuracy. This outperformance persists over time and holds across different types of firms. The valuations produced by machine learning models behave like fundamental values. Over-valued stocks decrease in price and under-valued stocks increase in price in the following month. Determinants of valuation multiples identified by machine learning models are consistent with theoretical predictions derived from a discounted cash flow approach. Profitability ratios, growth measures and efficiency ratios are the most important value drivers throughout our sample period. We derive a novel method to express valuation multiples predicted by our machine learning models as weighted averages of peer firm multiples. These weights are a measure of peer-firm comparability and can be used for selecting peer-groups.
