@@ -101,7 +101,7 @@ results -- a folder containing graphs (in pdf format) and tables (in latex forma
 
 ### Modify 000RunAll.do 
 
-Modify global macro definitions in lines 42-66 in 000RunAll.do in the Stata folder to point at your own local folders and Python enviroment as appropriate.
+Modify global macro definitions in lines 42-66 in 000RunAll.do in the [Stata](stata) folder to point at your own local folders and Python enviroment as appropriate.
 The Stata code assumes that you have an anaconda installation with a environment called "Valuation" that contains the relevant Python packages. Modify as needed.
 
 ### Execute 000RunAll.do
