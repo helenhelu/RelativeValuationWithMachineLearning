@@ -24,6 +24,7 @@ You will need a reasonably specced machine. We tested the code on a machine with
 **Software**
 
 Stata MP version 17 or higher
+
 Python 3.9.7
 
 **Python packages**
