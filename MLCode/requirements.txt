@@ -1,0 +1,7 @@
+Python==3.10.4
+pandas==1.4.3
+numpy==1.21.5
+lightgbm==3.2.1
+statsmodels==0.12.2
+shap==0.39.0
+scikit_learn==1.1.1
