@@ -7,7 +7,7 @@ Geertsema and Lu (2022), "Relative Valuation with Machine Learning", SSRN, https
 
 ## TL;DR
 
-Machine learning outperforms traditional approaches in the context of automated equity valuation. ML_lnm2b is the performance of our model using LightGBM.
+Machine learning outperforms traditional approaches in the context of automated equity valuation using fundamental accounting data. **ML_lnm2b** is the performance of our model using LightGBM. The other models are from the prior literature. See Figure 1(A) in the paper.
 
 ![plot](Figure1A.png)
 
