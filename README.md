@@ -58,7 +58,7 @@ SDC_19_7_2019_cleaned_long.xlsx -- IPO data from SDC platinum
 gvkeypermno.dta -- Link table to match gvkeys (Compustat) to permnos (CRSP) from WRDS
 
 
-[1]: Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to desisting adjusted total return in the current month.
+[1]: Processed to eliminate duplicate permno mth observations and create variable "r" equal to next month CRSP delisting adjusted excess return, and variable "daret" equal to delisting adjusted total return in the current month.
 
 [2]: We only use variable "CAPMbeta", which is the beta on the market factor (FF MKTRF) estimated in monthly data over 60 month rolling windows.
 
