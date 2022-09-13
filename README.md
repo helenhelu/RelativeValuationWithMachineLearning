@@ -3,7 +3,10 @@
 Code for the paper "Relative Valuation with Machine Learning", Geertsema and Lu (2022)
 
 ## Paper reference
-Geertsema and Lu (2022), "Relative Valuation with Machine Learning", SSRN, https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3740270
+Geertsema and Lu (2022), "Relative Valuation with Machine Learning", Journal of Accounting Research (Forthcoming).
+(Please cite our paper if you use our code.)
+
+The paper is available on SSRN: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3740270
 
 ## TL;DR
 
