@@ -52,7 +52,7 @@ forvalues i = 1/5 {
 
 	* training and testing blocks
 	gen train = 1
-    replace train = 0 if (hash100 > ((`i'-1) * 20)) & (hash100 < (`i' * 20))
+    	replace train = 0 if (hash100 > ((`i'-1) * 20)) & (hash100 < (`i' * 20))
 
 	*------------------------------------------------------------------------------
 	* Do Bartram and Grimblat predictions
