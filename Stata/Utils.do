@@ -326,11 +326,6 @@ program calcmeasures, rclass
 	}
 end
 
-if 0 {
-	local v ML_lnv2a
-	calcmeasures y_pred_`v' y_true_`v' y_train_mean_`v' value_pred_`v' value_true_`v' value_train_mean_`v' logvalue_train_mean_`v'
-	return list
-}
 
 *------------------------------------------------------------------------------
 * savemeasures
