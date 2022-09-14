@@ -34,7 +34,7 @@ See requirements.txt in [MLCode](MLCode) folder
 
 ## Suggested background
 
-You will need to be comfortable in Stata and Python, and familiar with machine learning (especially LightGBM and SHAP), experienced working with Compustat and CRSP data, have a reasonable background in accounting/finance/economics and some basic linear algebra. Or you should be a team that covers all these bases.
+Ideally you will be comfortable in Stata and Python, familiar with machine learning (especially LightGBM and SHAP), experienced working with Compustat and CRSP data, have a reasonable background in accounting/finance/economics and some basic linear algebra.
 
 ## Source data for running the code
 
